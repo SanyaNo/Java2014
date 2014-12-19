@@ -47,9 +47,9 @@ public class Ex1_b {
         int sum = 0;
         
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i]>0 && (arr[i]%2 ==1)){
+            if(arr[i]>0 && (arr[i]%2 !=0)){
                 System.out.println(arr[i]);
-                sum += arr[i];
+                sum *= arr[i];
             }
         }
         return sum;
