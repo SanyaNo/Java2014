@@ -37,7 +37,7 @@ public class Ex1_b {
     }
     
     /**
-     * The product of the positive odd array values
+     * The product of the odd array values
      *  
      * @param arr
      * @return 
@@ -47,7 +47,7 @@ public class Ex1_b {
         int sum = 0;
         
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i]>0 && (arr[i]%2 !=0)){
+            if(arr[i]%2 !=0 && arr[i] != 0){
                 System.out.println(arr[i]);
                 sum *= arr[i];
             }

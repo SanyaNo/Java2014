@@ -15,7 +15,7 @@ public class Main {
         System.out.println(Arrays.toString(arr));
         
         int sum = Ex1_b.mulPosOdd(arr);
-        System.out.println("The sum of all odd positives is " + sum);
+        System.out.println("The product of all odd positives is " + sum);
     }
 
 }
