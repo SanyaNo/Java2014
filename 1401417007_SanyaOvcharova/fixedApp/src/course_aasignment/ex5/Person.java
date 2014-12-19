@@ -14,7 +14,7 @@ public class Person {
     private String name;
     private String formatedDate;
     // private String[] dateID = {"year", "month", "day"};
-    private static Scanner listener = new Scanner(System.in);
+    private static Scanner listener = new Scanner(System.in,  "windows-1251");
 
    
     
