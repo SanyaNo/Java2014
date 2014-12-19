@@ -14,7 +14,7 @@ public class Main {
         int[] arr = Ex1_b.randArr(100, 15);
         System.out.println(Arrays.toString(arr));
         
-        int sum = Ex1_b.sumPosOdd(arr);
+        int sum = Ex1_b.mulPosOdd(arr);
         System.out.println("The sum of all odd positives is " + sum);
     }
 

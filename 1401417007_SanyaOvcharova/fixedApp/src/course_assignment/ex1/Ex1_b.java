@@ -37,13 +37,13 @@ public class Ex1_b {
     }
     
     /**
-     * Sum the positive odd array values
+     * The product of the positive odd array values
      *  
      * @param arr
      * @return 
      */
     
-    public static int sumPosOdd(int[] arr){
+    public static int mulPosOdd(int[] arr){
         int sum = 0;
         
         for (int i = 0; i < arr.length; i++) {
